@@ -28,6 +28,7 @@ jobs:
             ^SENTRY*
           REPOSITORIES: |
             rahulp959/draft-fpl-service
+            rahulp959/draft-fpl-frontend
           REPOSITORIES_LIST_REGEX: false
           DRY_RUN: false
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN_SECRETS }}

@@ -27,7 +27,7 @@ jobs:
             ^AWS*
             ^SENTRY*
           REPOSITORIES: |
-            draft-fpl-service
+            rahulp959/draft-fpl-service
           REPOSITORIES_LIST_REGEX: false
           DRY_RUN: false
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN_SECRETS }}

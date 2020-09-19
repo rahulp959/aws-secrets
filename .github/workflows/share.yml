@@ -20,7 +20,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         
-      - uses: google/secrets-sync-action
+      - name: Update secrets.
+        uses: google/secrets-sync-action
         with:
           SECRETS: |
             ^AWS*

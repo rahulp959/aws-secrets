@@ -26,6 +26,7 @@ jobs:
           SECRETS: |
             ^AWS*
             ^SENTRY*
+            GH_TOKEN_DEPENDABOT
           REPOSITORIES: |
             rahulp959/draft-fpl-service
             rahulp959/draft-fpl-frontend
@@ -39,3 +40,4 @@ jobs:
           AWS_REGION: ${{ secrets.AWS_REGION }}
           SENTRY_ORG: ${{ secrets.SENTRY_ORG }}
           SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+          GH_TOKEN_DEPENDABOT: ${{ secrets.GH_TOKEN_DEPENDABOT }}

@@ -31,6 +31,7 @@ jobs:
             rahulp959/draft-fpl-service
             rahulp959/draft-fpl-frontend
             rahulp959/draft-fpl-notifications
+            rahulp959/draft-fpl-platform-frontend
           REPOSITORIES_LIST_REGEX: false
           DRY_RUN: false
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN_SECRETS }}
